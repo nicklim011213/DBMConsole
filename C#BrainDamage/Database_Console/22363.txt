@@ -1,0 +1,1 @@
+appid:22363$name:BRINK: Fallout\/SpecOps Combo Pack$developer:Splash Damage$publisher:Bethesda Softworks$score_rank:NULL$positive:11$negative:1$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:99$initialprice:99$discount:0$ccu:0$languages:English@French@German@Italian@Spanish - Spain$genre:Action$tags:Action

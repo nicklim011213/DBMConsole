@@ -1,0 +1,1 @@
+appid:2900$name:688(I) Hunter\/Killer$developer:Sonalysts$publisher:Strategy First$score_rank:NULL$positive:119$negative:37$userscore:0$owners:20,000 .. 50,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:199$initialprice:999$discount:80$ccu:4$languages:English$genre:Strategy$tags:Strategy@Naval Combat@Simulation@Naval@Submarine@Military

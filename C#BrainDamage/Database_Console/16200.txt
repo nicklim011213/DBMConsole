@@ -1,0 +1,1 @@
+appid:16200$name:Virtual Families$developer:Last Day of Work$publisher:Last Day of Work$score_rank:NULL$positive:42$negative:9$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:4$languages:English$genre:Casual@Simulation$tags:Simulation@Casual

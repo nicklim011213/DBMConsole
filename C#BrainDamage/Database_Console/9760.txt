@@ -1,0 +1,1 @@
+appid:9760$name:Act of War: High Treason$developer:Eugen Systems$publisher:THQ Nordic$score_rank:NULL$positive:332$negative:78$userscore:0$owners:50,000 .. 100,000$average_forever:427$average_2weeks:0$median_forever:427$median_2weeks:0$price:299$initialprice:299$discount:0$ccu:11$languages:English$genre:Action$tags:Action@Strategy@RTS@Military

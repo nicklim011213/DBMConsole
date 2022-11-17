@@ -1,0 +1,1 @@
+appid:18420$name:Crazy Machines$developer:Fakt Software$publisher:Viva Media$score_rank:NULL$positive:132$negative:32$userscore:0$owners:50,000 .. 100,000$average_forever:87$average_2weeks:0$median_forever:142$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:1$languages:English$genre:Casual@Strategy$tags:Puzzle@Casual@Strategy@Physics@Singleplayer

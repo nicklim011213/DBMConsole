@@ -1,0 +1,1 @@
+appid:21310$name:Gravitron 2 Demo$developer:Dark Castle Software$publisher:Dark Castle Software$score_rank:NULL$positive:19$negative:8$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Indie@Casual$tags:Arcade@Indie

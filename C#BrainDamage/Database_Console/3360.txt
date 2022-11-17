@@ -1,0 +1,1 @@
+appid:3360$name:Big Money! Deluxe$developer:PopCap Games@Inc.$publisher:PopCap Games@Inc.$score_rank:NULL$positive:84$negative:9$userscore:0$owners:20,000 .. 50,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:6$languages:English$genre:Casual$tags:Casual@Puzzle@Match 3@Arcade

@@ -1,0 +1,1 @@
+appid:21600$name:Age of Booty$developer:Certain Affinity\u2122$publisher:Capcom$score_rank:NULL$positive:76$negative:121$userscore:0$owners:20,000 .. 50,000$average_forever:36$average_2weeks:0$median_forever:36$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Casual@Strategy$tags:Strategy@Casual@Pirates

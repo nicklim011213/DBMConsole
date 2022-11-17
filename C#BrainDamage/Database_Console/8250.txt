@@ -1,0 +1,1 @@
+appid:8250$name:Sam & Max 106: Bright Side of the Moon$developer:Telltale Games$publisher:Skunkape Games$score_rank:NULL$positive:79$negative:8$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:1$languages:English@French@German@Italian$genre:Action@Adventure$tags:Adventure@Action@Point & Click

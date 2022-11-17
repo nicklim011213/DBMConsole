@@ -1,0 +1,1 @@
+appid:6410$name:Joint Task Force Demo$developer:Most Wanted Entertainment$publisher:HD Publishing$score_rank:NULL$positive:104$negative:15$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:1$languages:English$genre:Action$tags:Strategy@Action@RTS@Military

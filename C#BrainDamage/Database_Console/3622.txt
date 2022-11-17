@@ -1,0 +1,1 @@
+appid:3622$name:Zuma^s Revenge! Demo$developer:PopCap Games@Inc.$publisher:PopCap Games@Inc.$score_rank:NULL$positive:528$negative:32$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:2$languages:English$genre:Action@Casual$tags:Casual@Action@Puzzle@Match 3@Singleplayer

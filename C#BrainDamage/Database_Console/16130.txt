@@ -1,0 +1,1 @@
+appid:16130$name:Fish Tycoon$developer:Last Day of Work$publisher:Last Day of Work$score_rank:NULL$positive:59$negative:12$userscore:0$owners:0 .. 20,000$average_forever:45$average_2weeks:0$median_forever:45$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:2$languages:English$genre:Casual@Simulation$tags:Simulation@Casual@Management

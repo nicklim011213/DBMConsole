@@ -1,0 +1,1 @@
+appid:5468$name:Men of War Red Tide Trailer$developer:1C Company$publisher:1C Company@1C-SoftClub$score_rank:NULL$positive:295$negative:70$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Strategy$tags:Strategy@World War II@RTS@Historical@War@Military@Masterpiece

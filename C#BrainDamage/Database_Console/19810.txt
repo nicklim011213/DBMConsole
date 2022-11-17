@@ -1,0 +1,1 @@
+appid:19810$name:The Sum of All Fears$developer:Red Storm Entertainment$publisher:Ubisoft$score_rank:NULL$positive:24$negative:6$userscore:0$owners:0 .. 20,000$average_forever:102$average_2weeks:0$median_forever:102$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:0$languages:English$genre:Action$tags:Action@Tactical

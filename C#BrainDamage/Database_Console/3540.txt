@@ -1,0 +1,1 @@
+appid:3540$name:Peggle Nights$developer:PopCap Games@Inc.$publisher:PopCap Games@Inc.@Electronic Arts$score_rank:NULL$positive:1294$negative:59$userscore:0$owners:100,000 .. 200,000$average_forever:433$average_2weeks:0$median_forever:252$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:79$languages:English$genre:Casual$tags:Casual@Puzzle@Singleplayer@Addictive@2D

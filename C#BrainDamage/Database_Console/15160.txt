@@ -1,0 +1,1 @@
+appid:15160$name:Petz Horsez 2$developer:Ubisoft$publisher:Ubisoft$score_rank:NULL$positive:116$negative:46$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:1$languages:English@French@Spanish - Spain$genre:Simulation$tags:Simulation@Horses@Family Friendly

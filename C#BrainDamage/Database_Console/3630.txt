@@ -1,0 +1,1 @@
+appid:3630$name:BookWorm Adventures Volume 2$developer:PopCap Games@Inc.$publisher:PopCap Games@Inc.$score_rank:NULL$positive:43$negative:3$userscore:0$owners:20,000 .. 50,000$average_forever:893$average_2weeks:0$median_forever:893$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:4$languages:English$genre:Casual$tags:Casual@Word Game@Puzzle

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "PfuxpZZDDVPEvOB7ks6+JP8NQy3iRydO/2RReMwgUG7R54P7eTKdnPgWAXfy/UE3Z5HW3LoGYbVBsvz1RhLLgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Johnathan\\Desktop\\drive-download-20221031T154616Z-001\\C#BrainDamage\\Database_Console\\Database_Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Johnathan\\.nuget\\packages\\npgsql\\6.0.7\\npgsql.6.0.7.nupkg.sha512",
+    "C:\\Users\\Johnathan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Johnathan\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Johnathan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Johnathan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

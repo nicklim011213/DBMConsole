@@ -1,0 +1,1 @@
+appid:24670$name:Trainz Simulator 12$developer:N3V Games$publisher:N3V Games$score_rank:NULL$positive:1151$negative:461$userscore:0$owners:100,000 .. 200,000$average_forever:993$average_2weeks:0$median_forever:1451$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:43$languages:English$genre:Simulation$tags:Simulation@Trains@Multiplayer@Singleplayer@Realistic@Sandbox

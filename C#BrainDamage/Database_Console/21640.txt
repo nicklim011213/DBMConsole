@@ -1,0 +1,1 @@
+appid:21640$name:Flock!$developer:Proper Games$publisher:Capcom$score_rank:NULL$positive:164$negative:42$userscore:0$owners:20,000 .. 50,000$average_forever:11$average_2weeks:0$median_forever:11$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English@French@German@Italian@Spanish - Spain$genre:Casual@Strategy$tags:Strategy@Casual@Puzzle@Aliens@Local Co-Op@Cute

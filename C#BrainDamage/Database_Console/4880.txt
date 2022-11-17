@@ -1,0 +1,1 @@
+appid:4880$name:Cossacks: European Wars$developer:GSC Game World$publisher:GSC World Publishing$score_rank:NULL$positive:318$negative:119$userscore:0$owners:100,000 .. 200,000$average_forever:584$average_2weeks:0$median_forever:589$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:17$languages:English$genre:Strategy$tags:Strategy@RTS@Historical@Singleplayer

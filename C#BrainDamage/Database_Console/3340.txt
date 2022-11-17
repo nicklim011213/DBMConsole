@@ -1,0 +1,1 @@
+appid:3340$name:AstroPop Deluxe$developer:PopCap Games@Inc.$publisher:PopCap Games@Inc.$score_rank:NULL$positive:61$negative:18$userscore:0$owners:20,000 .. 50,000$average_forever:22$average_2weeks:0$median_forever:22$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:2$languages:English$genre:Casual$tags:Casual@Puzzle

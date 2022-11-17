@@ -1,0 +1,1 @@
+appid:5387$name:Batman: Arkham Asylum Launch Trailer$developer:Rocksteady Studios$publisher:SQUARE ENIX@Eidos Interactive$score_rank:NULL$positive:0$negative:0$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Action@Adventure$tags:NULL

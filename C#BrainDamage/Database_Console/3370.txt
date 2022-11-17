@@ -1,0 +1,1 @@
+appid:3370$name:BookWorm Deluxe$developer:PopCap Games@Inc.$publisher:PopCap Games@Inc.$score_rank:NULL$positive:108$negative:19$userscore:0$owners:100,000 .. 200,000$average_forever:1$average_2weeks:0$median_forever:1$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:33$languages:English$genre:Casual$tags:Casual@Word Game@Puzzle@Singleplayer@Family Friendly

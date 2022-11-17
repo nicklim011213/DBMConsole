@@ -1,0 +1,1 @@
+appid:10140$name:3D Ultra Minigolf Adventures$developer:Wanako Games$publisher:Activision$score_rank:NULL$positive:70$negative:39$userscore:0$owners:0 .. 20,000$average_forever:88$average_2weeks:0$median_forever:176$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:0$languages:English$genre:Sports$tags:Sports@Mini Golf@Golf@Local Multiplayer@Singleplayer

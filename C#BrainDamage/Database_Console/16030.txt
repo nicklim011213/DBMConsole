@@ -1,0 +1,1 @@
+appid:16030$name:7 Wonders: Treasures of Seven$developer:MumboJumbo$publisher:MumboJumbo$score_rank:NULL$positive:89$negative:34$userscore:0$owners:20,000 .. 50,000$average_forever:188$average_2weeks:0$median_forever:188$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:1$languages:English$genre:Casual$tags:Casual@Match 3@Puzzle

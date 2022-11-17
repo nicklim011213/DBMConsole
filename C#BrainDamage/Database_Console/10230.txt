@@ -1,0 +1,1 @@
+appid:10230$name:Dead Mountaineer^s Hotel$developer:Electronic Paradise$publisher:Akella$score_rank:NULL$positive:36$negative:67$userscore:0$owners:20,000 .. 50,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:799$initialprice:799$discount:0$ccu:0$languages:English@German@Russian$genre:Adventure$tags:Adventure@Point & Click

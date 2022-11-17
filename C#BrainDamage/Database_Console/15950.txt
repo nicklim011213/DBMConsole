@@ -1,0 +1,1 @@
+appid:15950$name:Reaxxion$developer:MumboJumbo$publisher:MumboJumbo$score_rank:$positive:38$negative:17$userscore:78$owners:50,000 .. 100,000$average_forever:32$average_2weeks:0$median_forever:32$median_2weeks:0$price:7999$initialprice:7999$discount:0$ccu:1$languages:English$genre:Casual$tags:Casual@Arcade

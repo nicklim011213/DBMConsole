@@ -1,0 +1,1 @@
+appid:12630$name:Legend - Hand of God$developer:Master Creating$publisher:DTP Entertainment$score_rank:$positive:15$negative:10$userscore:60$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:1$languages:English@French@German@Italian@Spanish - Spain$genre:Action@RPG$tags:RPG@Action@Hack and Slash

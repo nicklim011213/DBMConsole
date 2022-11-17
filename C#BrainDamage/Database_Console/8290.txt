@@ -1,0 +1,1 @@
+appid:8290$name:Sam & Max 204: Chariots of the Dogs$developer:Telltale Games$publisher:Skunkape Games$score_rank:NULL$positive:66$negative:7$userscore:0$owners:0 .. 20,000$average_forever:240$average_2weeks:0$median_forever:240$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Adventure$tags:Adventure@Point & Click

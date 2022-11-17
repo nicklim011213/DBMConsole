@@ -1,0 +1,1 @@
+appid:5651$name:Lead and Gold Trapper Trailer$developer:Fatshark$publisher:Paradox Interactive$score_rank:NULL$positive:1468$negative:547$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Action$tags:Western@Action@Multiplayer@Third-Person Shooter@Third Person@Shooter

@@ -1,0 +1,1 @@
+appid:21900$name:Tom Clancy^s H.A.W.X$developer:Ubisoft Bucharest Studio$publisher:Ubisoft$score_rank:NULL$positive:166$negative:45$userscore:0$owners:0 .. 20,000$average_forever:474$average_2weeks:0$median_forever:474$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:3$languages:English@French@German$genre:Action$tags:Action@Flight@Simulation@Arcade@Online Co-Op

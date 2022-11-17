@@ -1,0 +1,1 @@
+appid:15960$name:Little Farm$developer:MumboJumbo$publisher:MumboJumbo$score_rank:NULL$positive:77$negative:37$userscore:0$owners:20,000 .. 50,000$average_forever:34$average_2weeks:0$median_forever:34$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:0$languages:English$genre:Casual$tags:Farming Sim@Casual@Agriculture@Puzzle@Farming@Singleplayer

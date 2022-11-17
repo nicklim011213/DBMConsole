@@ -1,0 +1,1 @@
+appid:11260$name:Pacific Storm Allies$developer:Lesta Studio$publisher:ESDigital Games$score_rank:NULL$positive:114$negative:81$userscore:0$owners:50,000 .. 100,000$average_forever:234$average_2weeks:0$median_forever:343$median_2weeks:0$price:799$initialprice:799$discount:0$ccu:8$languages:English$genre:Simulation@Strategy$tags:Simulation@Strategy@Naval Combat@World War II@Naval

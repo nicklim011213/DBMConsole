@@ -1,0 +1,1 @@
+appid:21630$name:Age of Booty Demo$developer:Certain Affinity\u2122$publisher:Capcom$score_rank:NULL$positive:63$negative:113$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:1$languages:English$genre:Strategy$tags:Strategy@Casual@Pirates

@@ -1,0 +1,1 @@
+appid:24012$name:Train Simulator: BNSF ES44AC & SD40-2 Loco Add-On$developer:Dovetail Games$publisher:Dovetail Games - Trains$score_rank:NULL$positive:5$negative:9$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:799$initialprice:799$discount:0$ccu:0$languages:English$genre:Simulation$tags:Simulation

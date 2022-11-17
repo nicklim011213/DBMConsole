@@ -1,0 +1,1 @@
+appid:13620$name:Tom Clancy^s Ghost Recon Desert Siege$developer:Red Storm Entertainment$publisher:Ubisoft$score_rank:NULL$positive:86$negative:5$userscore:0$owners:50,000 .. 100,000$average_forever:3$average_2weeks:0$median_forever:4$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:1$languages:English$genre:Action$tags:Action@Shooter@FPS@First-Person@Tactical@Strategy

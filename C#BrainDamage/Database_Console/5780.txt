@@ -1,0 +1,1 @@
+appid:5780$name:Numen: Contest of Heroes Video$developer:CINEMAX@s.r.o.$publisher:CINEMAX@s.r.o.$score_rank:NULL$positive:69$negative:77$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:NULL$genre:RPG$tags:RPG@Action RPG@Mythology@Singleplayer

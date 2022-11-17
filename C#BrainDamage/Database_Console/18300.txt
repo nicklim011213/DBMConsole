@@ -1,0 +1,1 @@
+appid:18300$name:Spectraball$developer:Shorebound Studios$publisher:Shorebound Studios$score_rank:NULL$positive:360$negative:113$userscore:0$owners:200,000 .. 500,000$average_forever:210$average_2weeks:0$median_forever:236$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:0$languages:English$genre:Casual@Indie$tags:Casual@Indie@Puzzle@Platformer@3D Platformer

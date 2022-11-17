@@ -1,0 +1,1 @@
+appid:19320$name:Space Ark$developer:Strawdog Studios Ltd$publisher:Bounce Entertainment $score_rank:NULL$positive:6$negative:9$userscore:0$owners:0 .. 20,000$average_forever:95$average_2weeks:0$median_forever:95$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:0$languages:English$genre:Action@Indie@Casual$tags:Action@Casual@Indie

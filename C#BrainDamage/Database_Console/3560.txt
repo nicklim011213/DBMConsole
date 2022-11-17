@@ -1,0 +1,1 @@
+appid:3560$name:Bejeweled Twist$developer:PopCap Games@Inc.$publisher:PopCap Games@Inc.@Electronic Arts$score_rank:NULL$positive:300$negative:62$userscore:0$owners:50,000 .. 100,000$average_forever:498$average_2weeks:81$median_forever:561$median_2weeks:81$price:499$initialprice:499$discount:0$ccu:13$languages:English$genre:Casual@Strategy$tags:Casual@Strategy@Match 3@Puzzle

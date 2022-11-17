@@ -1,0 +1,1 @@
+appid:18110$name:Shattered Horizon$developer:Futuremark$publisher:Futuremark$score_rank:NULL$positive:397$negative:72$userscore:0$owners:100,000 .. 200,000$average_forever:148$average_2weeks:0$median_forever:155$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Action@Indie$tags:Action@Indie@FPS@Space@Multiplayer@Sci-fi@6DOF@Shooter

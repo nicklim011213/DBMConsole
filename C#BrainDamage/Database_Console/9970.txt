@@ -1,0 +1,1 @@
+appid:9970$name:Star Raiders$developer:Incinerator Studios$publisher:Atari$score_rank:NULL$positive:5$negative:26$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:1$languages:English@French@German$genre:Action$tags:Action@Space

@@ -1,0 +1,53 @@
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.exe
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csprojAssemblyReference.cache
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.AssemblyInfoInputs.cache
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.AssemblyInfo.cs
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.deps.json
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.runtimeconfig.json
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.runtimeconfig.dev.json
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.dll
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.pdb
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csproj.CopyComplete
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.dll
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.pdb
+C:\Users\Nick\Desktop\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.genruntimeconfig.cache
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.exe
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.deps.json
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.runtimeconfig.json
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.runtimeconfig.dev.json
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.pdb
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csproj.AssemblyReference.cache
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.AssemblyInfoInputs.cache
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.AssemblyInfo.cs
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csproj.CoreCompileInputs.cache
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csproj.CopyComplete
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.pdb
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C# BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.genruntimeconfig.cache
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.exe
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.deps.json
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.runtimeconfig.json
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.runtimeconfig.dev.json
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Database_Console.pdb
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csproj.AssemblyReference.cache
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.AssemblyInfoInputs.cache
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.AssemblyInfo.cs
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csproj.CoreCompileInputs.cache
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.csproj.CopyComplete
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.dll
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.pdb
+C:\Users\Johnathan\Desktop\drive-download-20221031T154616Z-001\C#BrainDamage\Database_Console\obj\Debug\netcoreapp3.1\Database_Console.genruntimeconfig.cache

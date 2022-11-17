@@ -1,0 +1,1 @@
+appid:5044$name:Trials 2 - Bumps ^n Bruises Trailer$developer:Redlynx$publisher:RedLynx Ltd.$score_rank:NULL$positive:170$negative:33$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Racing@Sports@Indie$tags:Racing@Indie@Sports@Difficult

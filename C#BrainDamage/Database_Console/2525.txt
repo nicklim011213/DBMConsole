@@ -1,0 +1,1 @@
+appid:2525$name:Gumboy - Crazy Adventures$developer:CINEMAX@s.r.o.$publisher:CINEMAX@s.r.o.$score_rank:NULL$positive:54$negative:49$userscore:0$owners:50,000 .. 100,000$average_forever:4$average_2weeks:0$median_forever:4$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:0$languages:English@Polish@Russian$genre:Casual@Indie$tags:Casual@Indie@Singleplayer@Platformer

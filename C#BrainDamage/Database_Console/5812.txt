@@ -1,0 +1,1 @@
+appid:5812$name:Blacklight Tango Down Teaser$developer:Zombie Studios$publisher:Ignition Entertainment$score_rank:NULL$positive:135$negative:210$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:English$genre:Action$tags:Action@FPS@Multiplayer@Co-op@Singleplayer

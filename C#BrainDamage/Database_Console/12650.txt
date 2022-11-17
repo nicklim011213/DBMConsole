@@ -1,0 +1,1 @@
+appid:12650$name:Fetch It Again$developer:dtp \u2013 young entertainment Gmbh &amp; Co. KG$publisher:Cosmi ValuSoft$score_rank:NULL$positive:2$negative:2$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:699$initialprice:699$discount:0$ccu:0$languages:English$genre:Casual@Simulation$tags:Casual@Simulation

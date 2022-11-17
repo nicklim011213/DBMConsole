@@ -1,0 +1,1 @@
+appid:24065$name:Train Simulator: Glasgow Airport Rail Link Route Add-On$developer:Thomson Interactive$publisher:Dovetail Games - Trains$score_rank:NULL$positive:13$negative:20$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:1999$initialprice:1999$discount:0$ccu:0$languages:English$genre:Simulation$tags:Simulation

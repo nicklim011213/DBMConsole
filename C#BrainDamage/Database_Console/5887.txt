@@ -1,0 +1,1 @@
+appid:5887$name:Swarm Arena Trailer$developer:Dedication Games$publisher:Dedication Games$score_rank:NULL$positive:41$negative:13$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:NULL$genre:Action@Casual@Indie$tags:Indie@Casual@Action@Arcade

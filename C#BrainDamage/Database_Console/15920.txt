@@ -1,0 +1,1 @@
+appid:15920$name:Luxor 2$developer:MumboJumbo$publisher:MumboJumbo$score_rank:NULL$positive:12$negative:21$userscore:0$owners:0 .. 20,000$average_forever:118$average_2weeks:0$median_forever:118$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:0$languages:English@French@German$genre:Casual$tags:Casual@Match 3

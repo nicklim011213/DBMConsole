@@ -1,0 +1,1 @@
+appid:11080$name:Sherlock Holmes - Nemesis Demo$developer:Frogwares$publisher:Focus Home Interactive$score_rank:NULL$positive:115$negative:44$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:1$languages:English$genre:Adventure$tags:Adventure@Detective@Point & Click@RPG@Mystery@Puzzle

@@ -1,0 +1,1 @@
+appid:22510$name:Spectromancer - League of Heroes$developer:Apus Software@Three Donkeys LLC$publisher:Three Donkeys LLC$score_rank:NULL$positive:0$negative:1$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:299$initialprice:299$discount:0$ccu:0$languages:English@Russian$genre:Strategy$tags:Strategy

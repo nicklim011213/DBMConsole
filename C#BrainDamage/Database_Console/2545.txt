@@ -1,0 +1,1 @@
+appid:2545$name:RIP - Trilogy$developer:Elephant Games$publisher:NULL$score_rank:NULL$positive:204$negative:136$userscore:0$owners:100,000 .. 200,000$average_forever:1$average_2weeks:0$median_forever:1$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:0$languages:English$genre:Casual@Indie$tags:Indie@Casual@Arcade@Shooter@Action@2D@Top-Down@Shoot ^Em Up@Singleplayer

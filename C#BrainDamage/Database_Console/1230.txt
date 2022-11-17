@@ -1,0 +1,1 @@
+appid:1230$name:Mare Nostrum$developer:Sandstorm Productions$publisher:Tripwire Interactive$score_rank:NULL$positive:141$negative:17$userscore:0$owners:0 .. 20,000$average_forever:26$average_2weeks:0$median_forever:22$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:4$languages:English$genre:Action$tags:Action@World War II@Mod@FPS@Multiplayer@Free to Play@Realistic

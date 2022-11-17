@@ -1,0 +1,1 @@
+appid:5934$name:Bloody Good Time Clown Trailer (EN)$developer:NULL$publisher:NULL$score_rank:NULL$positive:660$negative:203$userscore:0$owners:0 .. 20,000$average_forever:0$average_2weeks:0$median_forever:0$median_2weeks:0$price:0$initialprice:0$discount:0$ccu:0$languages:NULL$genre:NULL$tags:Action@Multiplayer@FPS@Comedy@Funny@Shooter@First-Person@Gore

@@ -1,0 +1,1 @@
+appid:12430$name:SlamIt Pinball Big Score$developer:Technetium Games$publisher:Kalypso Media Digital$score_rank:NULL$positive:41$negative:80$userscore:0$owners:0 .. 20,000$average_forever:16$average_2weeks:0$median_forever:16$median_2weeks:0$price:499$initialprice:499$discount:0$ccu:0$languages:English$genre:Casual$tags:Casual@Pinball

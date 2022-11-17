@@ -1,0 +1,1 @@
+appid:23500$name:Puzzle Quest: Galactrix$developer:Infinite Interactive$publisher:D3Publisher of America@Inc.$score_rank:NULL$positive:143$negative:162$userscore:0$owners:20,000 .. 50,000$average_forever:76$average_2weeks:0$median_forever:76$median_2weeks:0$price:999$initialprice:999$discount:0$ccu:2$languages:English$genre:Casual@RPG$tags:RPG@Casual@Match 3@Puzzle@Sci-fi
