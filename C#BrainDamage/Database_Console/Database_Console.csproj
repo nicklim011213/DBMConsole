@@ -7,6 +7,8 @@
 
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="6.0.7" />
+    <PackageReference Include="PermutationLibrary" Version="2.2.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

@@ -3,6 +3,8 @@ using Npgsql;
 using System.Threading;
 using System.IO;
 using System.Collections.Generic;
+using System.Linq;
+using PermutationLibrary;
 
 namespace Database_Console
 {
@@ -442,6 +444,8 @@ namespace Database_Console
             conn.Open();
             bool loop = true;
             bool loop2 = true;
+            List<string> AllTagQuery = new List<string>();
+            List<string> AllDevQuery = new List<string>();
             while (loop)
             {
                 System.Console.WriteLine("Enter the tag you are looking for or next to continue");
@@ -450,16 +454,44 @@ namespace Database_Console
                 {
                     loop = false;
                 }
-                List<string> taglist = new List<string>();
+                else
+                {
+                    AllTagQuery.Add(tag);
+                }
             }
             while (loop2)
             {
-                System.Console.WriteLine("Enter the tag you are looking for or next to continue");
-                string tag = Console.ReadLine();
-                if (tag == "next")
+                System.Console.WriteLine("Enter the dev you are looking for or next to continue");
+                string dev = Console.ReadLine();
+                if (dev == "next")
                 {
-                    loop = false;
+                    loop2 = false;
                 }
+                else
+                {
+                    AllDevQuery.Add(dev);
+                }
+            }
+
+            foreach(string tagselected in AllTagQuery)
+            {
+                System.Console.WriteLine("TAG: " + tagselected);
+            }
+            foreach (string devselected in AllDevQuery)
+            {
+                System.Console.WriteLine("DEV: " + devselected);
+            }
+
+            var permutor = new Permutor<string>(2, AllTagQuery.ToArray(), false);
+            List<string[]> permutations = new List<string[]>();
+            permutations = permutor.PermuteToList();
+            foreach (string[] premutationList in permutations)
+            {
+                for (int i = 0; i < premutationList.Count(); i++)
+                {
+                    Console.Write(premutationList[i] + " ");
+                }
+                Console.WriteLine("");
             }
         }
     }
