@@ -473,26 +473,77 @@ namespace Database_Console
                 }
             }
 
-            foreach(string tagselected in AllTagQuery)
+
+            List<String[]> AllOptionsNoDupe = new List<string[]>(); // create a list to hold all sets no duplicates
+            List<String> Finalout = new List<String>();
+
+            for (int i = 1; i < AllTagQuery.Count() + 1; i++) // for 1 to all tags
             {
-                System.Console.WriteLine("TAG: " + tagselected);
-            }
-            foreach (string devselected in AllDevQuery)
-            {
-                System.Console.WriteLine("DEV: " + devselected);
+                var permutor = new Permutor<string>(i, AllTagQuery.ToArray(), false); // create all sets of the tags
+                List<string[]> permutations = new List<string[]>(); // create a list to hold all sets of tags
+                permutations = permutor.PermuteToList(); // assign all sets of tags to list
+                foreach (string[] premutationList in permutations) // for each set
+                {
+                    Array.Sort(premutationList); // sort the array
+                    bool equals = false; // is it already in
+                    foreach (String[] arrA in AllOptionsNoDupe)
+                    {
+                        if (arrA.Intersect(premutationList).Count() == arrA.Union(premutationList).Count())
+                        {
+                            equals = true;
+                        }
+                    }
+                    if (equals == false)
+                    {
+                        AllOptionsNoDupe.Add(premutationList);
+                    }
+                }
             }
 
-            var permutor = new Permutor<string>(2, AllTagQuery.ToArray(), false);
-            List<string[]> permutations = new List<string[]>();
-            permutations = permutor.PermuteToList();
-            foreach (string[] premutationList in permutations)
+            AllOptionsNoDupe.Reverse();
+            foreach (string[] set in AllOptionsNoDupe)
             {
-                for (int i = 0; i < premutationList.Count(); i++)
-                {
-                    Console.Write(premutationList[i] + " ");
+                foreach(string settuple in set)
+                {   
+                    System.Console.Write(settuple);
                 }
-                Console.WriteLine("");
+                System.Console.WriteLine();
             }
+
+            string andstatement;
+            foreach (string[] set in AllOptionsNoDupe)
+            {
+                andstatement = "";
+                foreach (string tuple in set)
+                {
+                    if (set.Length == 1 || tuple == set[set.Count() - 1])
+                    {
+                        andstatement += "LIKE '%" + tuple + "%'"; 
+                    }
+                    else
+                    {
+                        andstatement += "LIKE '%" + tuple + "%' AND tags ";
+                    }
+                }
+
+                var command = new NpgsqlCommand("SELECT title FROM released_game WHERE tags " + andstatement, conn);
+                NpgsqlDataReader dr = command.ExecuteReader();
+                while(dr.Read())
+                {
+                    if (!Finalout.Contains(dr.GetString(0)))
+                    {
+                        Finalout.Add(dr.GetString(0));
+                    }
+                    //Console.WriteLine(dr.GetString(0));
+                }
+                dr.Close();
+            }
+
+            foreach (string Game in Finalout)
+            {
+                System.Console.WriteLine(Game);
+            }
+            Console.ReadLine();
         }
     }
 }
