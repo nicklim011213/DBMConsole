@@ -138,11 +138,15 @@ namespace Database_Console
                         Thread.Sleep(250);
                         Command = new NpgsqlCommand("SELECT devname FROM dev WHERE devname = '" + devstr + "'", conn);
                         NpgsqlDataReader dr = Command.ExecuteReader();
-                        Thread.Sleep(1000);
+                        Thread.Sleep(250);
+                        string postconcat;
                         if (dr.HasRows == false)
                         {
                             dr.Close();
                             Command = new NpgsqlCommand("INSERT INTO dev (devname) VALUES ('" + devstr + "')", conn);
+                            Command.ExecuteNonQuery();
+                            Thread.Sleep(250);
+                            Command = new NpgsqlCommand("UPDATE dev SET games_released = '" + name + "@" + "' WHERE devname LIKE '%" + devstr + "%'", conn);
                             Command.ExecuteNonQuery();
                             Thread.Sleep(250);
                         }
@@ -152,11 +156,11 @@ namespace Database_Console
                             Command = new NpgsqlCommand("SELECT games_released FROM dev WHERE devname = '" + devstr + "'", conn);
                             dr = Command.ExecuteReader();
                             string preconcat = "";
-                            if (dr.HasRows == false)
+                            if (dr.HasRows)
                             {
                                 while (dr.Read())
                                 {
-                                    preconcat = preconcat + dr.GetString(0);
+                                    preconcat += dr.GetString(0) + "@";
                                 }
                             }
                             else
@@ -164,7 +168,7 @@ namespace Database_Console
                                 preconcat = "";
                             }
                             dr.Close();
-                            string postconcat = preconcat + "@" + name;
+                            postconcat = preconcat + name;
                             Command = new NpgsqlCommand("UPDATE dev SET games_released = '" + postconcat + "' WHERE devname LIKE '%" + devstr + "%'", conn);
                             Command.ExecuteNonQuery();
                         }
