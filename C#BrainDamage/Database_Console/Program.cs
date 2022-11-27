@@ -23,6 +23,8 @@ namespace Database_Console
             System.Console.WriteLine("|5. Update Game (manual)       |");
             System.Console.WriteLine("|6. Remove Game (manual)       |");
             System.Console.WriteLine("|7. Insert Dev From File       |");
+            System.Console.WriteLine("|8. Reccomend ReleasedGame(Tag)|");
+            System.Console.WriteLine("|9. Reccomend In_Dev Game(Tag) |");
             System.Console.WriteLine("--------------------------------");
             choice = System.Console.ReadLine();
             if (choice == "1")
@@ -56,6 +58,10 @@ namespace Database_Console
             else if (choice == "8")
             {
                 Recommend();
+            }
+            else if (choice == "9")
+            {
+                RecommendUnReleased();
             }
         }
 
@@ -118,16 +124,18 @@ namespace Database_Console
                         Console.WriteLine(tagstr);
 
                         var Command = new NpgsqlCommand("INSERT INTO " + "released_game" + " ( " + "title" + " ) " + "VALUES" + " ( " + "'" + name + "'" + " ) ", conn);
-                        try { 
+                        try
+                        {
                             Command.ExecuteNonQuery();
                         }
-                        catch{
+                        catch
+                        {
                             Console.WriteLine("Dup");
                         }
                         Command = new NpgsqlCommand("UPDATE " + "released_game" + " SET " + " price " + " = " + pricecost + " WHERE " + "title = '" + name + "'", conn);
                         Command.ExecuteNonQuery();
                         Thread.Sleep(250);
-                        Command = new NpgsqlCommand("UPDATE " + "released_game" + " SET " + " genre " + " = '" + genre  + "' WHERE " + "title = '" + name + "'", conn);
+                        Command = new NpgsqlCommand("UPDATE " + "released_game" + " SET " + " genre " + " = '" + genre + "' WHERE " + "title = '" + name + "'", conn);
                         Command.ExecuteNonQuery();
                         Thread.Sleep(250);
                         Command = new NpgsqlCommand("UPDATE " + "released_game" + " SET " + " tags " + " = '" + tagstr + "' WHERE " + "title = '" + name + "'", conn);
@@ -187,9 +195,9 @@ namespace Database_Console
         static void Test()
         {
             NpgsqlConnection conn = new NpgsqlConnection("Server=127.0.0.1; Port=5432; User Id=postgres; Password=root; Database=PotatoKinishes"); //<ip> is an actual ip address
-            try 
-            { 
-            conn.Open(); 
+            try
+            {
+                conn.Open();
             }
             catch
             {
@@ -404,7 +412,7 @@ namespace Database_Console
             {
                 NpgsqlConnection conn = new NpgsqlConnection("Server=127.0.0.1; Port=5432; User Id=postgres; Password=root; Database=PotatoKinishes");
                 conn.Open();
-             //System.Console.WriteLine("C:\\Users\\Nick\\Desktop\\C# BrainDamage\\Database_Console" + i + ".txt");
+                //System.Console.WriteLine("C:\\Users\\Nick\\Desktop\\C# BrainDamage\\Database_Console" + i + ".txt");
                 if (File.Exists("../../../" + i + ".txt"))
                 {
                     bool indb = false;
@@ -414,8 +422,8 @@ namespace Database_Console
                     string dev = alldata.Substring(devpos, devend - devpos);
                     //if (dev != "NULL")
                     //{
-                        //System.Console.WriteLine(i);
-                        //System.Console.WriteLine(dev);
+                    //System.Console.WriteLine(i);
+                    //System.Console.WriteLine(dev);
                     //}
                     var command = new NpgsqlCommand("SELECT dev_name FROM developer WHERE dev_name = '" + dev + "'", conn);
                     NpgsqlDataReader dr = command.ExecuteReader();
@@ -447,9 +455,7 @@ namespace Database_Console
             NpgsqlConnection conn = new NpgsqlConnection("Server=127.0.0.1; Port=5432; User Id=postgres; Password=root; Database=PotatoKinishes");
             conn.Open();
             bool loop = true;
-            bool loop2 = true;
             List<string> AllTagQuery = new List<string>();
-            List<string> AllDevQuery = new List<string>();
             while (loop)
             {
                 System.Console.WriteLine("Enter the tag you are looking for or next to continue");
@@ -463,20 +469,6 @@ namespace Database_Console
                     AllTagQuery.Add(tag);
                 }
             }
-            while (loop2)
-            {
-                System.Console.WriteLine("Enter the dev you are looking for or next to continue");
-                string dev = Console.ReadLine();
-                if (dev == "next")
-                {
-                    loop2 = false;
-                }
-                else
-                {
-                    AllDevQuery.Add(dev);
-                }
-            }
-
 
             List<String[]> AllOptionsNoDupe = new List<string[]>(); // create a list to hold all sets no duplicates
             List<String> Finalout = new List<String>();
@@ -507,8 +499,118 @@ namespace Database_Console
             AllOptionsNoDupe.Reverse();
             foreach (string[] set in AllOptionsNoDupe)
             {
-                foreach(string settuple in set)
-                {   
+                foreach (string settuple in set)
+                {
+                    System.Console.Write(settuple);
+                }
+                System.Console.WriteLine();
+            }
+
+            Console.WriteLine("Do you want to order by Price or Rating? P/R");
+            string orderbySwitch = "rating";
+            string orderby = Console.ReadLine();
+            if (orderby == "P" || orderby == "p")
+            {
+                orderby = "price";
+            }
+
+            Console.WriteLine("Do you want to order by Asending or Desending? A/D");
+            string orderbySwitchAD = "DESC";
+            orderby = Console.ReadLine();
+            if (orderby == "A" || orderby == "a")
+            {
+                orderbySwitchAD = "ASC";
+            }
+
+            string andstatement;
+            foreach (string[] set in AllOptionsNoDupe)
+            {
+                andstatement = "";
+                foreach (string tuple in set)
+                {
+                    if (set.Length == 1 || tuple == set[set.Count() - 1])
+                    {
+                        andstatement += "LIKE '%" + tuple + "%'";
+                    }
+                    else
+                    {
+                        andstatement += "LIKE '%" + tuple + "%' AND tags ";
+                    }
+                }
+
+                var command = new NpgsqlCommand("SELECT * FROM released_game WHERE tags " + andstatement + " ORDER BY " + orderbySwitch + " " + orderbySwitchAD, conn);
+                List<string> alldevgames = new List<string>();
+                NpgsqlDataReader dr = command.ExecuteReader();
+                while (dr.Read())
+                {
+                    if (!Finalout.Contains(dr.GetString(0).PadRight(40) + " | " + dr.GetValue(1).ToString().PadRight(5) + " | " + dr.GetString(2).PadRight(30) + " | " + Math.Round(dr.GetDouble(4),2)))
+                    {
+                        Finalout.Add(dr.GetString(0).PadRight(40) + " | " + dr.GetValue(1).ToString().PadRight(5) + " | " + dr.GetString(2).PadRight(30) + " | " + Math.Round(dr.GetDouble(4), 2));
+                    }
+                    //Console.WriteLine(dr.GetString(0));
+                }
+                dr.Close();
+            }
+
+            System.Console.WriteLine("Title:                                   Price:   Genre:                          Rating (%):");
+            foreach (string Game in Finalout)
+            {
+                System.Console.WriteLine(Game);
+            }
+            Console.ReadLine();
+        }
+
+        static void RecommendUnReleased()
+        {
+            NpgsqlConnection conn = new NpgsqlConnection("Server=127.0.0.1; Port=5432; User Id=postgres; Password=root; Database=PotatoKinishes");
+            conn.Open();
+            bool loop = true;
+            List<string> AllTagQuery = new List<string>();
+            while (loop)
+            {
+                System.Console.WriteLine("Enter the tag you are looking for or next to continue");
+                string tag = Console.ReadLine();
+                if (tag == "next")
+                {
+                    loop = false;
+                }
+                else
+                {
+                    AllTagQuery.Add(tag);
+                }
+            }
+
+            List<String[]> AllOptionsNoDupe = new List<string[]>(); // create a list to hold all sets no duplicates
+            List<String> Finalout = new List<String>();
+
+            for (int i = 1; i < AllTagQuery.Count() + 1; i++) // for 1 to all tags
+            {
+                var permutor = new Permutor<string>(i, AllTagQuery.ToArray(), false); // create all sets of the tags
+                List<string[]> permutations = new List<string[]>(); // create a list to hold all sets of tags
+                permutations = permutor.PermuteToList(); // assign all sets of tags to list
+                foreach (string[] premutationList in permutations) // for each set
+                {
+                    Array.Sort(premutationList); // sort the array
+                    bool equals = false; // is it already in
+                    foreach (String[] arrA in AllOptionsNoDupe)
+                    {
+                        if (arrA.Intersect(premutationList).Count() == arrA.Union(premutationList).Count())
+                        {
+                            equals = true;
+                        }
+                    }
+                    if (equals == false)
+                    {
+                        AllOptionsNoDupe.Add(premutationList);
+                    }
+                }
+            }
+
+            AllOptionsNoDupe.Reverse();
+            foreach (string[] set in AllOptionsNoDupe)
+            {
+                foreach (string settuple in set)
+                {
                     System.Console.Write(settuple);
                 }
                 System.Console.WriteLine();
@@ -522,27 +624,28 @@ namespace Database_Console
                 {
                     if (set.Length == 1 || tuple == set[set.Count() - 1])
                     {
-                        andstatement += "LIKE '%" + tuple + "%'"; 
+                        andstatement += "LIKE '%" + tuple + "%'";
                     }
                     else
                     {
                         andstatement += "LIKE '%" + tuple + "%' AND tags ";
                     }
                 }
-
-                var command = new NpgsqlCommand("SELECT title FROM released_game WHERE tags " + andstatement, conn);
+                var command = new NpgsqlCommand("SELECT * FROM upcoming_game WHERE tags " + andstatement, conn);
+                List<string> alldevgames = new List<string>();
                 NpgsqlDataReader dr = command.ExecuteReader();
-                while(dr.Read())
+                while (dr.Read())
                 {
                     if (!Finalout.Contains(dr.GetString(0)))
                     {
-                        Finalout.Add(dr.GetString(0));
+                        Finalout.Add(dr.GetString(0) + " | " + dr.GetDouble(1) + " | " + dr.GetString(2) + " | " + dr.GetDouble(4));
                     }
                     //Console.WriteLine(dr.GetString(0));
                 }
                 dr.Close();
             }
 
+            System.Console.WriteLine("Title: Price: Genre: Rating (%): ");
             foreach (string Game in Finalout)
             {
                 System.Console.WriteLine(Game);
@@ -551,3 +654,4 @@ namespace Database_Console
         }
     }
 }
+
