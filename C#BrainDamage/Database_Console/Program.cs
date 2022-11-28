@@ -93,6 +93,8 @@ namespace Database_Console
                     }
                     else
                     {
+
+                        // THE BIG BLOCK OF FIND IT
                         int devpos = alldata.IndexOf("developer:") + 10;
                         int pubpos = alldata.IndexOf("publisher:") + 10;
                         int devend = alldata.IndexOf('$', devpos);
@@ -113,6 +115,7 @@ namespace Database_Console
                         string genre = alldata.Substring(genrepos, genreend - genrepos);
                         double ratingpercent = (double)posratingint / (double)(posratingint + negratingint);
                         string tagstr = alldata.Substring(tagspos, tagsend - tagspos);
+                        //THE BIG BLOCK OF FIND IT
 
                         Console.WriteLine(" ID " + i + " Has a dev , pub , name , price, genre, rating% and a taglist of");
                         Console.WriteLine(devstr);
@@ -130,33 +133,38 @@ namespace Database_Console
                         }
                         catch
                         {
-                            Console.WriteLine("Dup");
+                            Console.WriteLine("Duplicate skipping");
                         }
+
+                        // THE BIG BLOCK OF FIlL OUT EACH DATA
                         Command = new NpgsqlCommand("UPDATE " + "released_game" + " SET " + " price " + " = " + pricecost + " WHERE " + "title = '" + name + "'", conn);
                         Command.ExecuteNonQuery();
-                        Thread.Sleep(250);
+                        //Thread.Sleep(250);
                         Command = new NpgsqlCommand("UPDATE " + "released_game" + " SET " + " genre " + " = '" + genre + "' WHERE " + "title = '" + name + "'", conn);
                         Command.ExecuteNonQuery();
-                        Thread.Sleep(250);
+                        //Thread.Sleep(250);
                         Command = new NpgsqlCommand("UPDATE " + "released_game" + " SET " + " tags " + " = '" + tagstr + "' WHERE " + "title = '" + name + "'", conn);
                         Command.ExecuteNonQuery();
-                        Thread.Sleep(250);
+                        //Thread.Sleep(250);
                         Command = new NpgsqlCommand("UPDATE " + "released_game" + " SET " + " rating " + " = " + ratingpercent + " WHERE " + "title = '" + name + "'", conn);
                         Command.ExecuteNonQuery();
-                        Thread.Sleep(250);
+                        //Thread.Sleep(250);
                         Command = new NpgsqlCommand("SELECT devname FROM dev WHERE devname = '" + devstr + "'", conn);
                         NpgsqlDataReader dr = Command.ExecuteReader();
-                        Thread.Sleep(250);
+                        //Thread.Sleep(250);
+                        // THE BIG BLOCK OF FIlL OUT EACH DATA
+
                         string postconcat;
-                        if (dr.HasRows == false)
+                        if (dr.HasRows == false) // If the dev was not found
                         {
                             dr.Close();
                             Command = new NpgsqlCommand("INSERT INTO dev (devname) VALUES ('" + devstr + "')", conn);
                             Command.ExecuteNonQuery();
-                            Thread.Sleep(250);
+                            //Thread.Sleep(250);
                             Command = new NpgsqlCommand("UPDATE dev SET games_released = '" + name + "@" + "' WHERE devname LIKE '%" + devstr + "%'", conn);
                             Command.ExecuteNonQuery();
-                            Thread.Sleep(250);
+                            //Thread.Sleep(250);
+                            // INSER IT AND UPDATE THE GAMES
                         }
                         else
                         {
@@ -166,9 +174,16 @@ namespace Database_Console
                             string preconcat = "";
                             if (dr.HasRows)
                             {
-                                while (dr.Read())
+                                try
                                 {
-                                    preconcat += dr.GetString(0) + "@";
+                                    while (dr.Read())
+                                    {
+                                        preconcat += dr.GetString(0) + "@";
+                                    }
+                                }
+                                catch
+                                {
+                                    Console.WriteLine("Error At Inserting " + devstr + "Skipping");
                                 }
                             }
                             else
@@ -179,6 +194,7 @@ namespace Database_Console
                             postconcat = preconcat + name;
                             Command = new NpgsqlCommand("UPDATE dev SET games_released = '" + postconcat + "' WHERE devname LIKE '%" + devstr + "%'", conn);
                             Command.ExecuteNonQuery();
+                            //OTHERWISE JUST ADD THE GAME
                         }
                         Command = null;
                         dr = null;
@@ -543,16 +559,16 @@ namespace Database_Console
                 NpgsqlDataReader dr = command.ExecuteReader();
                 while (dr.Read())
                 {
-                    if (!Finalout.Contains(dr.GetString(0).PadRight(40) + " | " + dr.GetValue(1).ToString().PadRight(5) + " | " + dr.GetString(2).PadRight(30) + " | " + Math.Round(dr.GetDouble(4),2)))
+                    if (!Finalout.Contains(dr.GetString(0).PadRight(75) + " | " + dr.GetValue(1).ToString().PadRight(5) + " | " + dr.GetString(2).PadRight(30) + " | " + Math.Round(dr.GetDouble(4),2)))
                     {
-                        Finalout.Add(dr.GetString(0).PadRight(40) + " | " + dr.GetValue(1).ToString().PadRight(5) + " | " + dr.GetString(2).PadRight(30) + " | " + Math.Round(dr.GetDouble(4), 2));
+                        Finalout.Add(dr.GetString(0).PadRight(75) + " | " + dr.GetValue(1).ToString().PadRight(5) + " | " + dr.GetString(2).PadRight(30) + " | " + Math.Round(dr.GetDouble(4), 2));
                     }
                     //Console.WriteLine(dr.GetString(0));
                 }
                 dr.Close();
             }
 
-            System.Console.WriteLine("Title:                                   Price:   Genre:                          Rating (%):");
+            System.Console.WriteLine("Title:                                                                           Price:   Genre:                          Rating (%):");
             foreach (string Game in Finalout)
             {
                 System.Console.WriteLine(Game);
